@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFFFF"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+    
+    <com.innovattic.font.FontTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:font="Gotham-Medium"
+            android:text="doih oshgs ohds"
+            android:textColor="#FF000000"
+            android:textSize="19dp"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/tvQuestion" />
+    
+    <com.innovattic.font.FontEditText 
+        android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:font="Gotham-Medium-Regular"
+            android:text=""
+            android:textColor="#FF000000"
+            android:textSize="16dp"
+            android:gravity="left|top"
+            android:layout_marginTop="6dp"
+            android:id="@+id/etAnswer"/>
+
+</LinearLayout>

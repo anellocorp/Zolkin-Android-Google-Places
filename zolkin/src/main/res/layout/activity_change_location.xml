@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/zl_purple" >
+
+        <com.innovattic.font.FontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Buscar nova localização"
+            android:textColor="@color/zl_green"
+            android:textSize="19dp"
+            app:font="Gotham-Medium" />
+
+        <ImageView
+            android:id="@+id/btVoltar"
+            android:layout_width="40dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_vertical|left"
+            android:scaleType="center"
+            android:src="@drawable/bt_voltar" />
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/bt_pin"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flBtGpsLocation"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <com.innovattic.font.FontTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/zl_purple"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="5dp"
+            android:text="Usar localização atual"
+            android:textColor="@color/zl_light_blue"
+            android:textSize="14dp"
+            app:font="Gotham-Medium" />
+
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/icon_localizar" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_margin="5dp" >
+
+        <AutoCompleteTextView
+            android:id="@+id/autocomplete_location"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/lista_text_box"
+            android:hint="Rua, Avenida, Bairro ou Cidade"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="40dp"
+            android:singleLine="true"
+            android:textSize="14dp"
+             />
+
+        <com.innovattic.font.FontEditText
+            android:id="@+id/etSearch"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/lista_text_box"
+            android:hint="Rua, Avenida, Bairro ou Cidade"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="40dp"
+            android:singleLine="true"
+            android:textSize="14dp"
+            app:font="Gotham-Medium"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/lupa_roxa" />
+        
+        <FrameLayout android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="right"
+            android:id="@+id/flBtClose">
+            <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/bt_close_go_home" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/lvAddresses"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="singleChoice"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never" >
+    </ListView>
+
+    <com.google.android.gms.maps.GestureMapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

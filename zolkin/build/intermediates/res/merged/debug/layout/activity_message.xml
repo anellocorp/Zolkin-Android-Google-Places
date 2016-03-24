@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#592d7f" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Mensagem"
+            android:textColor="#28e694"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/btVoltar"
+            android:layout_width="40dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_vertical|left"
+            android:scaleType="center"
+            android:src="@drawable/bt_voltar" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical|left"
+        android:textColor="@color/zl_purple" />
+
+    <TextView
+        android:id="@+id/tvDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical|right"
+        android:textColor="#FF909090" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#D0D0D0" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+    </ScrollView>
+
+</LinearLayout>

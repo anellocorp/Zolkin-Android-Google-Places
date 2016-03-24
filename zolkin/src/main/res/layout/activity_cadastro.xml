@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_geral" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal" >
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillViewport="false"
+            android:id="@+id/ScrollWelcome"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp" >
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/logo_zolkin" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.innovattic.font.FontTextView
+                        app:font="Gotham-Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="Bem-vindo ao"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp"
+                        android:textStyle="normal"/>
+                    <com.innovattic.font.FontTextView
+                        app:font="Gotham-Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="mundo Zolkin"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp"
+                        android:textStyle="normal"/>
+                    <!--<View-->
+                        <!--android:layout_height="0dp"-->
+                        <!--android:layout_weight="1" />-->
+
+                    <com.innovattic.font.FontTextView
+                        app:font="Gotham-Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:text="cadastre-se"
+                        android:textColor="@color/zl_green"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <View
+            android:layout_width="30dp"
+            android:layout_height="36dp"
+            android:id="@+id/vArrowUp"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:minHeight="200dp"
+            android:background="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <com.innovattic.font.FontTextView
+                    app:font="Gotham-Light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="30dp"
+                    android:gravity="center_vertical"
+                    android:lines="2"
+                    android:text="Preencha os campos do formulário abaixo e faça parte do Zolkin:"
+                    android:textColor="@color/zl_purple" />
+
+
+                <!-- Área de cadastro -->
+
+                <com.innovattic.font.FontEditText
+                    style="@style/CadastroTextBoxStyle"
+                    android:hint="Nome"
+                    android:id="@+id/etNome"
+                    android:singleLine="true"
+                    android:inputType="textNoSuggestions"
+                    android:privateImeOptions="nm"/>
+
+                <com.innovattic.font.FontEditText
+                    style="@style/CadastroTextBoxStyle"
+                    android:hint="Sobrenome"
+                    android:id="@+id/etSobrenome"
+                    android:singleLine="true"
+                    android:inputType="textNoSuggestions"
+                    android:privateImeOptions="nm"/>
+
+                <com.innovattic.font.FontEditText
+                    style="@style/CadastroTextBoxStyle"
+                    android:hint="CPF"
+                    android:id="@+id/etCPF"
+                    android:inputType="number"
+                    android:singleLine="true"/>
+
+                <com.innovattic.font.FontEditText
+                    style="@style/CadastroTextBoxStyle"
+                    android:hint="Celular"
+                    android:id="@+id/etCelular"
+                    android:inputType="number"
+                    android:singleLine="true" />
+
+                <com.innovattic.font.FontTextView
+                    style="@style/CadastroTextBoxStyle"
+                    android:hint="Data de nascimento"
+                    android:id="@+id/tvDataNascimento"
+                    android:gravity="center_vertical|left" />
+
+                <!-- <com.innovattic.font.FontTextView
+                    style="@style/CadastroTextBoxStyle"
+                    android:hint="Sexo"
+                    android:id="@+id/tvSexo"
+                    android:gravity="center_vertical|left"/> -->
+
+                <LinearLayout
+                    style="@style/CadastroTextBoxStyle"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingRight="10dp"
+                    android:background="#00000000">
+
+                    <com.innovattic.font.FontTextView
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="0dp"
+                        android:paddingLeft="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        style="@style/CadastroTextBoxStyle"
+                        android:gravity="center_vertical|left"
+                        android:hint="Sexo"
+                        android:background="#00000000" />
+
+                    <Button
+                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="00dp"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/CadastroTextBoxStyle"
+                        android:background="@drawable/segmented_left_selected"
+                        android:id="@+id/btMale"
+                        android:text="M"
+                        android:state_focused="true"/>
+
+                    <Button
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="00dp"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/CadastroTextBoxStyle"
+                        android:id="@+id/btFemale"
+                        android:background="@drawable/segmented_right_unselected"
+                        android:text="F"/>
+                </LinearLayout>
+
+                <com.innovattic.font.FontEditText
+                    style="@style/CadastroTextBoxStyle"
+                    android:hint="E-mail"
+                    android:id="@+id/etEmail"
+                    android:singleLine="true"
+                    android:inputType="textNoSuggestions"
+                    android:privateImeOptions="nm"/>
+
+                <com.innovattic.font.FontEditText
+                    style="@style/CadastroTextBoxStyle"
+                    android:hint="Senha (4 digitos numéricos)"
+                    android:id="@+id/etSenha"
+                    android:singleLine="true"
+                    android:inputType="numberPassword"
+                    android:password="true" />
+
+                <com.innovattic.font.FontEditText
+                    style="@style/CadastroTextBoxStyle"
+                    android:hint="Confirmar senha"
+                    android:singleLine="true"
+                    android:id="@+id/etConfirmarSenha"
+                    android:inputType="numberPassword"
+                    android:password="true" />
+
+                <com.innovattic.font.FontEditText
+                    style="@style/CadastroTextBoxStyle"
+                    android:hint="CEP"
+                    android:id="@+id/etCEP"
+                    android:inputType="number"
+                    android:singleLine="true" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="6dp">
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/vBtCheckBox"
+                        android:background="@drawable/bt_cadastro_unchecked"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="center_vertical"/>
+                    <com.innovattic.font.FontTextView
+                        app:font="Gotham-Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="Aceito os "
+                        android:textColor="@color/zl_purple"
+                        android:layout_marginLeft="10dp"/>
+                    <com.innovattic.font.FontTextView
+                        app:font="Gotham-Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="termos de uso"
+                        android:textColor="@color/zl_purple"
+                        android:textStyle="normal"
+                        android:id="@+id/tvBtTermos"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/bt_cadastrar"
+                android:id="@+id/imgvBtCadastrar" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@drawable/bt_cancelar"
+                android:id="@+id/imgvBtCancelar" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

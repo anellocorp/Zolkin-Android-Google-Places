@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidAS.iml" filepath="$PROJECT_DIR$/AndroidAS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebookSDK/facebookSDK.iml" filepath="$PROJECT_DIR$/facebookSDK/facebookSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/innovatticfontlibrary/innovatticfontlibrary.iml" filepath="$PROJECT_DIR$/innovatticfontlibrary/innovatticfontlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mixpanelandroid/mixpanelandroid.iml" filepath="$PROJECT_DIR$/mixpanelandroid/mixpanelandroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zolkin/zolkin.iml" filepath="$PROJECT_DIR$/zolkin/zolkin.iml" />
+    </modules>
+  </component>
+</project>

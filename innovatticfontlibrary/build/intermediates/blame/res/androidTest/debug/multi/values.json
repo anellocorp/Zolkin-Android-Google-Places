@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/innovatticfontlibrary/build/intermediates/res/merged/androidTest/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 295,
+                    "endColumn": 45,
+                    "endOffset": 336
+                },
+                "from": {
+                    "file": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/innovatticfontlibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 45,
+                        "endOffset": 336
+                    }
+                }
+            }
+        ]
+    }
+]

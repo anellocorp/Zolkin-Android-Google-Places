@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PageControlView">
+       <attr name="dotRadiusSp" format="integer" />
+       <attr name="dotColorSelected" format="integer" />
+       <attr name="dotColorUnselected" format="integer" />
+       <attr name="numDots" format="integer" />
+       <attr name="selectedDot" format="integer" />
+   </declare-styleable>
+   
+    <declare-styleable name="MeColorsView">
+       <attr name="circleRadiusSp" format="integer" />
+       <attr name="selectedColor" format="integer" />
+   </declare-styleable>
+   
+    <declare-styleable name="RoundedCornersImageView">
+       <attr name="cornerRadiusDp" format="integer" />
+   </declare-styleable>
+
+</resources>

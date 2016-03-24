@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/zl_purple" >
+
+        <com.innovattic.font.FontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Edite seu cadastro"
+            android:textColor="@color/zl_green"
+            android:textSize="18dp"
+            app:font="Gotham-Medium" />
+
+        <FrameLayout
+            android:id="@+id/btMenu"
+            android:layout_width="44dp"
+            android:layout_height="44dp" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="17dp"
+                android:layout_gravity="center_vertical|left"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/bt_menu" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp" >
+
+        <com.innovattic.font.FontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center_vertical"
+            android:lines="2"
+            android:text="Preencha os campos do formulário abaixo para editar seus dados:"
+            android:textColor="@color/zl_purple"
+            app:font="Gotham-Light" />
+
+        <!--<ImageView
+            android:layout_width="34dp"
+            android:layout_height="22dp"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/ovni" />-->
+
+        <View
+            android:id="@+id/vArrowUp"
+            android:layout_width="30dp"
+            android:layout_height="36dp"
+            android:layout_gravity="right|bottom"
+            android:layout_marginRight="20dp" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="@color/android:white" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <com.innovattic.font.FontEditText
+                android:id="@+id/etNome"
+                style="@style/PerfilTextBoxStyle"
+                android:hint="Nome" />
+
+            <com.innovattic.font.FontEditText
+                android:id="@+id/etSobrenome"
+                style="@style/PerfilTextBoxStyle"
+                android:hint="Sobrenome" />
+
+            <com.innovattic.font.FontTextView
+                android:id="@+id/etCPF"
+                style="@style/PerfilTextBoxStyle"
+                android:hint="CPF"
+                android:inputType="number" 
+                android:gravity="center_vertical"/>
+
+            <com.innovattic.font.FontEditText
+                android:id="@+id/etCelular"
+                style="@style/PerfilTextBoxStyle"
+                android:hint="Celular"
+                android:inputType="number" />
+            
+            <com.innovattic.font.FontTextView
+                android:id="@+id/tvDataNascimento"
+                style="@style/PerfilTextBoxStyle"
+                android:gravity="center_vertical|left"
+                android:hint="Data de nascimento" />
+            
+         <!--    <com.innovattic.font.FontTextView
+                android:id="@+id/tvSexo"
+                style="@style/PerfilTextBoxStyle"
+                android:gravity="center_vertical|left"
+                android:hint="Sexo" />
+             -->
+            <LinearLayout 
+                style="@style/PerfilTextBoxStyle"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingRight="10dp"
+                android:background="#00000000">
+                
+                <com.innovattic.font.FontTextView
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="0dp"
+                    android:paddingLeft="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+	                style="@style/PerfilTextBoxStyle"
+	                android:gravity="center_vertical|left"
+	                android:text="Sexo"
+	                android:background="#00000000" />
+                
+                <Button 
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="00dp"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+            		style="@style/PerfilTextBoxStyle"
+            		android:background="@drawable/segmented_left_selected"
+            		android:id="@+id/btMale"
+            		android:text="M"/>
+                
+                <Button 
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="00dp"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+            		style="@style/PerfilTextBoxStyle"
+            		android:id="@+id/btFemale"
+            		android:background="@drawable/segmented_right_unselected"
+            		android:text="F"/>
+            </LinearLayout> 
+
+            <com.innovattic.font.FontEditText
+                android:id="@+id/etEmail"
+                style="@style/PerfilTextBoxStyle"
+                android:hint="E-mail" />
+
+            <com.innovattic.font.FontEditText
+                android:id="@+id/etSenha"
+                style="@style/PerfilTextBoxStyle"
+                android:hint="Senha (4 digitos numéricos)"
+                android:inputType="numberPassword" />
+
+            <com.innovattic.font.FontEditText
+                android:id="@+id/etConfirmarSenha"
+                style="@style/PerfilTextBoxStyle"
+                android:hint="Confirmar senha"
+                android:inputType="numberPassword" />
+
+            <com.innovattic.font.FontEditText
+                android:id="@+id/etCEP"
+                style="@style/PerfilTextBoxStyle"
+                android:hint="CEP"
+                android:inputType="number" />
+
+            
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imgvBtConfirmar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:src="@drawable/bt_confirmar" />
+    </LinearLayout>
+
+</LinearLayout>

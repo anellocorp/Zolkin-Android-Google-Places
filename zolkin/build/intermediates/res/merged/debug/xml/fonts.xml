@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<familyset>
+
+    <!-- Font with all four styles defined -->
+    <family>
+        <nameset>
+            <name>Gotham-Medium</name>
+        </nameset>
+        <fileset>
+            <file>Gotham-Medium-Regular.ttf</file>
+            <file>Gotham-Medium-Bold.ttf</file>
+            <file>Gotham-Medium-Italic.ttf</file>
+            <file>Gotham-MediumBoldItalic.ttf</file>
+        </fileset>
+    </family>
+
+    <!-- Font with only regular and bold defined -->
+    <family>
+        <nameset>
+            <name>Gotham-Medium-Black</name>
+        </nameset>
+       <fileset>
+            <file>Gotham-Medium-Black.ttf</file>
+            <file>Gotham-Medium-BlackItalic.ttf</file>
+        </fileset>
+    </family>
+    
+    <family>
+        <nameset>
+            <name>Gotham-Medium-ExtraLight</name>
+        </nameset>
+       <fileset>
+            <file>Gotham-Medium-ExtraLight.ttf</file>
+            <file>Gotham-Medium-ExtraLightItalic.ttf</file>
+        </fileset>
+    </family>
+    
+    <family>
+        <nameset>
+            <name>Gotham-Medium</name>
+        </nameset>
+       <fileset>
+            <file>Gotham-Medium.ttf</file>
+            <file>Gotham-MediumItalic.ttf</file>
+        </fileset>
+    </family>
+    
+    <family>
+        <nameset>
+            <name>Gotham-Medium</name>
+        </nameset>
+       <fileset>
+            <file>Gotham-Medium.ttf</file>
+            <file>Gotham-MediumItalic.ttf</file>
+        </fileset>
+    </family>
+
+    <!-- DEFIÇÕES DA FONTE GOTHAM -->
+    <family>
+        <nameset>
+            <name>Gotham-Medium</name>
+        </nameset>
+        <fileset>
+            <file>GOTHAM-MEDIUM.TTF</file>
+            <file>GOTHAM-MEDIUMITALIC.TTF</file>
+        </fileset>
+    </family>
+
+    <family>
+        <nameset>
+            <name>Gotham-Light</name>
+        </nameset>
+        <fileset>
+            <file>GOTHAM-LIGHT.TTF</file>
+            <file>GOTHAM-LIGHTITALIC.TTF</file>
+        </fileset>
+    </family>
+
+    <family>
+        <nameset>
+            <name>Gotham-Bold</name>
+        </nameset>
+        <fileset>
+            <file>GOTHAM-BOLD.TTF</file>
+            <file>GOTHAM-BOLDITALIC.TTF</file>
+        </fileset>
+    </family>
+
+    <family>
+        <nameset>
+            <name>Gotham-Black</name>
+        </nameset>
+        <fileset>
+            <file>GOTHAM-BLACK.TTF</file>
+            <file>GOTHAM-BLACKITALIC.TTF</file>
+        </fileset>
+    </family>
+
+    <family>
+        <nameset>
+            <name>SourceSansPro</name>
+        </nameset>
+        <fileset>
+            <file>SourceSansPro-Regular.ttf</file>
+            <file>SourceSansPro-Bold.ttf</file>
+            <file>SourceSansPro-Italic.ttf</file>
+            <file>SourceSansProBoldItalic.ttf</file>
+        </fileset>
+    </family>
+
+</familyset> 

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_geral" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="186dp"
+            android:layout_height="165dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo_zolkin" />
+
+        <com.innovattic.font.FontTextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical|left"
+            android:text="Esqueci minha senha"
+            android:textColor="@color/zl_green"
+            android:textSize="18dp"
+            app:font="Gotham-Medium" />
+
+        <com.innovattic.font.FontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="30dp"
+            android:gravity="center_vertical"
+            android:lines="2"
+            android:text="Insira seu e-mail e enviaremos um link para redefinir sua senha"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            app:font="Gotham-Light" />
+
+        <com.innovattic.font.FontEditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="@drawable/login_text_box"
+            android:hint="E-mail"
+            android:paddingLeft="10dp"
+            android:textColor="@color/zl_purple"
+            android:textColorHint="@color/zl_purple"
+            android:textSize="16dp"
+            app:font="Gotham-Light"
+            android:inputType="textEmailAddress" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgvBtEnviar"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/bt_enviar" />
+
+            <ImageView
+                android:id="@+id/imgvBtCancelar"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/bt_cancelar_roxo" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

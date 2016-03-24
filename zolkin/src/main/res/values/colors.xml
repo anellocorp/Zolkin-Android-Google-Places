@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="zl_purple">#FF40225E</color>
+	<color name="zl_light_blue">#FFBBC733</color>
+	<color name="zl_green">#FFBBC733</color>
+	<color name="zl_white">#FFFFFFFF</color>
+    
+</resources>

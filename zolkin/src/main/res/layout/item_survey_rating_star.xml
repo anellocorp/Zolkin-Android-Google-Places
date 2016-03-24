@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lvRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp" >
+
+    <com.innovattic.font.FontTextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="doih oshgs ohds"
+        android:textColor="#FF000000"
+        android:textSize="19dp"
+        app:font="Gotham-Medium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal" >
+
+
+        <FrameLayout
+            android:id="@+id/flR1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/zl_rating_number_height"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <com.innovattic.font.FontTextView
+                android:id="@+id/tvR1"
+                android:layout_width="@dimen/zl_rating_number_height"
+                android:layout_height="@dimen/zl_rating_number_height"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/circle_n"
+                android:gravity="center"
+                android:paddingTop="2dp"
+                android:text=""
+                android:textColor="#FF000000"
+                android:textSize="10dp"
+                app:font="Gotham-Medium" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/flR2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/zl_rating_number_height"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <com.innovattic.font.FontTextView
+                android:id="@+id/tvR2"
+                android:layout_width="@dimen/zl_rating_number_height"
+                android:layout_height="@dimen/zl_rating_number_height"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/circle_n"
+                android:gravity="center"
+                android:paddingTop="2dp"
+                android:text=""
+                android:textColor="#FF000000"
+                android:textSize="10dp"
+                app:font="Gotham-Medium" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/flR3"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/zl_rating_number_height"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <com.innovattic.font.FontTextView
+                android:id="@+id/tvR3"
+                android:layout_width="@dimen/zl_rating_number_height"
+                android:layout_height="@dimen/zl_rating_number_height"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/circle_n"
+                android:gravity="center"
+                android:paddingTop="2dp"
+                android:text=""
+                android:textColor="#FF000000"
+                android:textSize="10dp"
+                app:font="Gotham-Medium" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/flR4"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/zl_rating_number_height"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <com.innovattic.font.FontTextView
+                android:id="@+id/tvR4"
+                android:layout_width="@dimen/zl_rating_number_height"
+                android:layout_height="@dimen/zl_rating_number_height"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/circle_n"
+                android:gravity="center"
+                android:paddingTop="2dp"
+                android:text=""
+                android:textColor="#FF000000"
+                android:textSize="10dp"
+                app:font="Gotham-Medium" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/flR5"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/zl_rating_number_height"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <com.innovattic.font.FontTextView
+                android:id="@+id/tvR5"
+                android:layout_width="@dimen/zl_rating_number_height"
+                android:layout_height="@dimen/zl_rating_number_height"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/circle_n"
+                android:gravity="center"
+                android:paddingTop="2dp"
+                android:text=""
+                android:textColor="#FF000000"
+                android:textSize="10dp"
+                app:font="Gotham-Medium" />
+        </FrameLayout>
+        <!--
+        <FrameLayout
+            android:id="@+id/flR6"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <com.innovattic.font.FontTextView
+                android:id="@+id/tvR6"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/circle_n"
+                android:gravity="center"
+                android:paddingTop="2dp"
+                android:text="6"
+                android:textColor="#FF000000"
+                android:textSize="10dp"
+                app:font="Gotham-Medium" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/flR7"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <com.innovattic.font.FontTextView
+                android:id="@+id/tvR7"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/circle_n"
+                android:gravity="center"
+                android:paddingTop="2dp"
+                android:text="7"
+                android:textColor="#FF000000"
+                android:textSize="10dp"
+                app:font="Gotham-Medium" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/flR8"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <com.innovattic.font.FontTextView
+                android:id="@+id/tvR8"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/circle_n"
+                android:gravity="center"
+                android:paddingTop="2dp"
+                android:text="8"
+                android:textColor="#FF000000"
+                android:textSize="10dp"
+                app:font="Gotham-Medium" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/flR9"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <com.innovattic.font.FontTextView
+                android:id="@+id/tvR9"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/circle_n"
+                android:gravity="center"
+                android:paddingTop="2dp"
+                android:text="9"
+                android:textColor="#FF000000"
+                android:textSize="10dp"
+                app:font="Gotham-Medium" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/flR10"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <com.innovattic.font.FontTextView
+                android:id="@+id/tvR10"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/circle_n"
+                android:gravity="center"
+                android:paddingTop="2dp"
+                android:text="10"
+                android:textColor="#FF000000"
+                android:textSize="10dp"
+                app:font="Gotham-Medium" />
+        </FrameLayout>
+        -->
+    </LinearLayout>
+
+</LinearLayout>

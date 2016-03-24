@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-8.4.0_4eb45ca1cbf9c12a099e9442be93ff4546dd0538.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/libs/httpcore-4.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8dfd6286d04ad9dbf26cdf7d4ef5c8fad430cf30">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/httpcore-4.3_8895aab2b4e059c65539cbdc915442c36c660b34.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-8.4.0_3624040ceb455eb15e44bec525a89e8280b76582.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_0ab74a84a5f0221cdce4bfc53845e8708a28d962.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="555928dc0ab6a107c3f6f9403dfcd37ba8047bfd">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/AndroidAS-facebookSDK-unspecified_08b1b7408bd43602a1af418ef58e0fbd32b9a4cc.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ab24efa963703ec2c78ab9416834b6015c234ada">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/AndroidAS-facebookSDK-unspecified_08b1b7408bd43602a1af418ef58e0fbd32b9a4cc.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-8.4.0_b8be67287d331ede92913abf35d1133e76cd830a.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_1280e4bc2f60ee15d67af3953be81a1ba683f209.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/libs/httpclient-4.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0171c67fa04952e76bc9ee1e578fe629db35d769">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/httpclient-4.3.1_b8f8b5de4691b9830c46e034aca491a146c1ee28.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/libs/commons-codec-1.8.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="af3be3f74d25fc5163b54f56a0d394b462dafafd">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/commons-codec-1.8_b4c295741ae3eb836c6da01af841750ccd998247.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/libs/httpclient-4.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0171c67fa04952e76bc9ee1e578fe629db35d769">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/httpclient-4.3.1_b8f8b5de4691b9830c46e034aca491a146c1ee28.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/libs/GoogleConversionTrackingSdk-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1b178dd030b222412a96435782c0dc24aac48a8f">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/GoogleConversionTrackingSdk-2.2.4_9ff6aeb345b158a9a68b492f50f041808eb48f7f.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_2e2b770388fb8202fcc607970afdc52dbad9d26d.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/libs/GoogleConversionTrackingSdk-2.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1b178dd030b222412a96435782c0dc24aac48a8f">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/GoogleConversionTrackingSdk-2.2.4_9ff6aeb345b158a9a68b492f50f041808eb48f7f.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-8.4.0_fbfc2a14620e3f86ee316432f63397100e68fdff.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/innovatticfontlibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1afed643b3ba0abc2d8ae04ffc6d94c595135e1">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/AndroidAS-innovatticfontlibrary-unspecified_54a1b5b477180f7f54e104b35102a1fcb9cccd7b.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-8.4.0_02d377103b6b0bea6eefe0f409060be53d78da8b.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/libs/httpmime-4.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f49e2348b768a7199e021a97e951df25cd5fb714">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/httpmime-4.3.1_c01b44658b724569720fdd4a4f5cd7d70e5b15d1.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0f240b404434a5afdb945be6f321736b0c5f7f1e">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/AndroidAS-mixpanelandroid-unspecified_054e4c487d49d74c318823dc338ce5c29c7915d9.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/libs/httpclient-cache-4.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="546eee25fa025a455040bbf1708b0c0490c2311b">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/httpclient-cache-4.3.1_c02b350b453af11dfad2dbd3246ad1bc12f4595c.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-8.4.0_5103bf21433d24fe3976db87d189fa7930bdb669.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/libs/httpcore-4.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8dfd6286d04ad9dbf26cdf7d4ef5c8fad430cf30">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/httpcore-4.3_8895aab2b4e059c65539cbdc915442c36c660b34.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_50e01fc6727616e0c6c5f864b8b31d7f5212cbcc.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_91fe8a358ce35332665e947bcfe05bd93618f63a.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-8.4.0_e1c97ccd665eea682fdf1b8fda11cdadecda5849.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="896e88f5350654df85d8c59dd9c5816228f8d32e">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/AndroidAS-mixpanelandroid-unspecified_054e4c487d49d74c318823dc338ce5c29c7915d9.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-measurement-8.4.0_0b2d1b43aeeb123bc4e32daea79355454a2c11d1.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/innovatticfontlibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3c0ab73064bcca9da99683a4f8eb89b982b8af07">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/AndroidAS-innovatticfontlibrary-unspecified_54a1b5b477180f7f54e104b35102a1fcb9cccd7b.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_91fe8a358ce35332665e947bcfe05bd93618f63a.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/libs/commons-codec-1.8.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="af3be3f74d25fc5163b54f56a0d394b462dafafd">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/commons-codec-1.8_b4c295741ae3eb836c6da01af841750ccd998247.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_50e01fc6727616e0c6c5f864b8b31d7f5212cbcc.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/libs/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/commons-io-2.4_71a4efb0f6cb5bd06e6a3f945594f94d201c46a5.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/libs/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/commons-io-2.4_71a4efb0f6cb5bd06e6a3f945594f94d201c46a5.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/libs/httpmime-4.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f49e2348b768a7199e021a97e951df25cd5fb714">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/httpmime-4.3.1_c01b44658b724569720fdd4a4f5cd7d70e5b15d1.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_0ab74a84a5f0221cdce4bfc53845e8708a28d962.jar" />
+    </item>
+    <item
+        jar="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/libs/httpclient-cache-4.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="546eee25fa025a455040bbf1708b0c0490c2311b">
+        <dex dex="/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/pre-dexed/debug/httpclient-cache-4.3.1_c02b350b453af11dfad2dbd3246ad1bc12f4595c.jar" />
+    </item>
+
+</items>

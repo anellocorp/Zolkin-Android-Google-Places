@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:minWidth="160dp"
+    android:maxWidth="260dp"
+     >
+    
+    <com.innovattic.font.FontTextView
+            app:font="Gotham-Medium"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_margin="10dp"
+    		android:textColor="@color/zl_purple"
+    		android:textSize="18dp"
+    		android:text="title"
+    		android:id="@+id/tvCalloutName"
+    		android:layout_gravity="center_horizontal"
+    		android:gravity="center_horizontal|top" />
+    		
+	<com.innovattic.font.FontTextView
+            app:font="Gotham-Medium"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="10dp"
+    		android:layout_marginRight="10dp"
+    		android:layout_marginBottom="10dp"
+    		android:textColor="#000000"
+    		android:textSize="15dp"
+    		android:text="addr"
+    		android:id="@+id/tvCalloutAddr"
+    		android:lines="2" 
+    		android:layout_gravity="center_horizontal"
+    		android:gravity="center_horizontal|top"/>
+	
+</LinearLayout>

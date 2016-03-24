@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/anim/com_mixpanel_android_fade_out.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/anim/com_mixpanel_android_fade_out.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/anim/zolkin_fade_out.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/anim/zolkin_fade_out.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/anim/zolkin_slide_out_down.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/anim/zolkin_slide_out_down.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/anim/com_mixpanel_android_slide_down.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/anim/com_mixpanel_android_slide_down.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/anim/com_mixpanel_android_fade_in.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/anim/com_mixpanel_android_fade_in.xml"
+    }
+]

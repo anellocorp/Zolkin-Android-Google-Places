@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="TypographyDashes">
+
+    <String name="ga_trackingId">UA-27464065-2</String>
+    <String name="ga_sampleFrequency">100.0</String>
+    <int name="ga_sessionTimeout">1800</int>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_anonymizeIp">false</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <screenName name="imd.zolkin.activity.HomeActivity">Home</screenName>
+    <screenName name="imd.zolkin.activity.LoginActivity">Login</screenName>
+    <screenName name="imd.zolkin.activity.ExtratoActivity">Extrato</screenName>
+    <screenName name="imd.zolkin.activity.SurveyActivity">Pesquisa</screenName>
+    <screenName name="imd.zolkin.activity.DetailActivity">Estabelecimento</screenName>
+
+</resources>

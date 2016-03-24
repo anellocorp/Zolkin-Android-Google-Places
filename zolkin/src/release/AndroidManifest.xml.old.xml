@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.zolkin"
+
+    android:installLocation="auto" >
+<!-- com.imd.zolkin -->
+    <uses-sdk
+         />
+    
+   <!--  <supports-screens 
+	    android:smallScreens="false"
+	    android:normalScreens="true" 
+	    android:largeScreens="true"
+	    android:xlargeScreens="true"
+	    android:resizeable="true"
+	    android:anyDensity="true" /> -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+
+    <uses-permission android:name="br.com.zolkin.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <!--
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    -->
+    
+    <!-- Used for Google Play Store Campaign Measurement
+	<service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+	<receiver android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+	          android:exported="true">
+	  <intent-filter>
+	    <action android:name="com.android.vending.INSTALL_REFERRER" />
+	  </intent-filter>
+	</receiver> -->
+
+    <permission
+        android:name="br.com.zolkin.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <permission
+        android:name="com.imd.zolkin.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.imd.zolkin.permission.MAPS_RECEIVE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+
+    <application
+        android:name="com.imd.zolkin.custom.ZolkinApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        
+        <receiver
+            android:name="com.imd.zolkin.services.ZLGCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="br.com.zolkin" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.imd.zolkin.services.ZLGCMIntentService" />
+        
+        <receiver
+            android:name="com.mixpanel.android.mpmetrics.GCMReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+				<action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="br.com.zolkin" />
+            </intent-filter>
+        </receiver>
+
+
+        <service
+            android:label="@string/app_name"
+            android:enabled="true"
+            android:name="com.imd.zolkin.services.ZLLocationService" />
+
+        <receiver
+            android:name="com.imd.zolkin.services.ZLLocationReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+       </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+      
+        <!-- Debug API_KEY
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDG0gP9tvDRWoExrnc3kNWimxzV2rGshz4" /> -->
+
+        <!-- Release API_KEY  -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCIx99YnIzKvW2b_5ewAlWpUlWkGAOSPyM" />
+
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id_0" />
+
+        
+        <activity android:name="com.facebook.LoginActivity" />
+        
+        <activity
+            android:name="com.imd.zolkin.activity.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="zolkin" />
+            	<action android:name="android.intent.action.VIEW" />
+	            <category android:name="android.intent.category.DEFAULT" />
+	            <category android:name="android.intent.category.BROWSABLE" />
+        	</intent-filter>
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.CadastroActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.EsqueciSenhaActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.HomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.PerfilActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.ExtratoActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.ListaActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.FilterActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.ChangeLocationActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.DetailActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.FavoritosActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.TermosActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.FAQActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.ComoFuncionaActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.AboutActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.MessagesActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.MessageActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.imd.zolkin.activity.SurveyActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity
+            android:name="com.mixpanel.android.surveys.SurveyActivity">
+        </activity>
+    </application>
+
+</manifest>

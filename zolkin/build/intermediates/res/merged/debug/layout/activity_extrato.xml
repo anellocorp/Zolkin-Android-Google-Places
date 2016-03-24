@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/zl_purple" >
+
+        <com.innovattic.font.FontTextView
+            style="@style/ActivityTitleTextViewStyle"
+            android:text="Extrato" />
+
+        <FrameLayout
+            android:id="@+id/btMenu"
+            android:layout_width="44dp"
+            android:layout_height="44dp" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="17dp"
+                android:layout_gravity="center_vertical|left"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/bt_menu" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imgvBtTipoExtrato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/segmented_zolkins" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/zl_light_blue"
+        android:orientation="horizontal" >
+
+        <com.innovattic.font.FontTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"
+            android:text="Saldo atual"
+            android:textColor="@color/zl_purple"
+            android:textSize="17dp"
+            android:textStyle="normal"
+            app:font="Gotham-Medium" />
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_margin="6dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_zolkin_pqn" />
+
+        <com.innovattic.font.FontTextView
+            android:id="@+id/tvSaldoExtrato"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical|right"
+            android:text="2.171,83"
+            android:textColor="@color/zl_purple"
+            android:textSize="17dp"
+            android:textStyle="normal"
+            app:font="Gotham-Medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/zl_purple"
+        android:orientation="horizontal" >
+
+        <com.innovattic.font.FontTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"
+            android:text="Você já economizou"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            app:font="Gotham-Medium" />
+"
+
+        <com.innovattic.font.FontTextView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            android:text="R$"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:font="Gotham-Black" />
+
+        <com.innovattic.font.FontTextView
+            android:id="@+id/tvEconomiaTotal"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical|right"
+            android:text="2.171,83"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"
+            android:textStyle="normal"
+            app:font="Gotham-Medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llHeaderZolkins"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <com.innovattic.font.FontTextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical|left"
+            android:text="Data"
+            android:textColor="@color/zl_purple"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            app:font="Gotham-Medium" />
+
+        <com.innovattic.font.FontTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"
+            android:text="Descrição"
+            android:textColor="@color/zl_purple"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            app:font="Gotham-Medium" />
+
+        <com.innovattic.font.FontTextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical|right"
+            android:lines="2"
+            android:text="(-) Zolkin&apos;s Utilizados"
+            android:textColor="@color/zl_purple"
+            android:textSize="14dp"
+            android:textStyle="normal"
+            app:font="Gotham-Medium" />
+
+        <com.innovattic.font.FontTextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical|right"
+            android:lines="2"
+            android:text="(-) Zolkin&apos;s Recebidos"
+            android:textColor="@color/zl_purple"
+            android:textSize="14dp"
+            android:textStyle="normal"
+            app:font="Gotham-Medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llHeaderAVencer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <com.innovattic.font.FontTextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical|left"
+            android:text="Data"
+            android:textColor="@color/zl_purple"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            app:font="Gotham-Medium" />
+
+        <com.innovattic.font.FontTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:text="(-) Zolkin's"
+            android:textColor="@color/zl_purple"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            app:font="Gotham-Medium" />
+
+        <com.innovattic.font.FontTextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical|right"
+            android:text="Saldo"
+            android:textColor="@color/zl_purple"
+            android:textSize="14dp"
+            android:textStyle="normal"
+            app:font="Gotham-Medium" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvExtrato"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="#00000000">
+    </ListView>
+
+</LinearLayout>

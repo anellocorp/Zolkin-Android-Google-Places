@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/zl_purple" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Pesquisa"
+            android:textColor="@color/zl_green"
+            android:textSize="16dp" />
+
+
+        <ImageView
+            android:id="@+id/btVoltar"
+            android:layout_width="40dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_vertical|left"
+            android:scaleType="center"
+            android:src="@drawable/bt_voltar" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <com.innovattic.font.FontTextView
+                    android:id="@+id/tvNomeEC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pesquisa de satisfação:"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:textColor="@color/zl_purple"
+                    app:font="Gotham-Medium"/>
+
+                <com.innovattic.font.FontTextView
+                    android:id="@+id/tvNomePesquisa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/zl_purple"
+                    app:font="Gotham-Medium"
+                    android:gravity="center"
+                    android:singleLine="false"
+                    android:maxLines="3"
+                    android:textSize="25dp"
+                    android:layout_marginTop="10dp"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/flSurvey"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/llSurvey"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical">
+                    </LinearLayout>
+                </FrameLayout>
+
+
+                <!--
+                <ListView
+                    android:id="@+id/lvSurvey"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:cacheColorHint="#00000000"
+                    android:descendantFocusability="beforeDescendants"
+                    android:listSelector="@android:color/transparent"
+                    android:visibility="gone">
+                </ListView>-->
+            </LinearLayout>
+        </ScrollView>
+        <include layout="@layout/item_survey_bt_enviar"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/vBtEnviar"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#B0000000"
+            android:id="@+id/flComment"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#FFFFFFFF"
+                android:orientation="vertical" >
+
+                <com.innovattic.font.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Autoriza nosso SAC a entrar em contato?"
+                    android:textColor="#FF000000"
+                    android:textSize="12dp"
+                    app:font="Gotham-Bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="6dp"
+                    android:background="#FFFFFFFF"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/lLTelefone" >
+
+                    <ImageView
+                        android:id="@+id/imgvCheckboxTelefone"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/checkbox2_n" />
+
+                    <com.innovattic.font.FontTextView
+                        android:id="@+id/tvTelefone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|left"
+                        android:text="doih oshgs ohds"
+                        android:textColor="#FF000000"
+                        android:textSize="12dp"
+                        app:font="Gotham-Medium" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="6dp"
+                    android:background="#FFFFFFFF"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/lLEmail" >
+
+                    <ImageView
+                        android:id="@+id/imgvCheckboxEmail"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/checkbox2_n" />
+
+                    <com.innovattic.font.FontTextView
+                        android:id="@+id/tvEmail"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|left"
+                        android:text="doih oshgs ohds"
+                        android:textColor="#FF000000"
+                        android:textSize="12dp"
+                        app:font="Gotham-Medium" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="6dp"
+                    android:background="#FFFFFFFF"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/lLOutros" >
+
+                    <ImageView
+                        android:id="@+id/imgvCheckboxOutros"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/checkbox2_n" />
+
+                    <com.innovattic.font.FontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|left"
+                        android:text="Outros"
+                        android:textColor="#FF000000"
+                        android:textSize="12dp"
+                        app:font="Gotham-Medium" />
+                </LinearLayout>
+
+                <com.innovattic.font.FontEditText
+                    android:id="@+id/etOutros"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical|left"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#FF000000"
+                    android:textSize="12dp"
+                    app:font="Gotham-Medium" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="6dp"
+                    android:background="#FFFFFFFF"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/lLNao" >
+
+                    <ImageView
+                        android:id="@+id/imgvCheckboxNao"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/checkbox2_n" />
+
+                    <com.innovattic.font.FontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|left"
+                        android:text="Não, obrigado"
+                        android:textColor="#FF000000"
+                        android:textSize="12dp"
+                        app:font="Gotham-Medium-Regular" />
+                </LinearLayout>
+
+                <com.innovattic.font.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical|left"
+                    android:text="Comentário (opcional):"
+                    android:textColor="#FF000000"
+                    android:textSize="12dp"
+                    app:font="Gotham-Medium-Regular" />
+
+                <com.innovattic.font.FontEditText
+                    android:id="@+id/etComment"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="top|left"
+                    android:lines="3"
+                    android:singleLine="false"
+                    android:text=""
+                    android:textColor="#FF000000"
+                    android:textSize="12dp"
+                    app:font="Gotham-Medium" />
+
+                <com.innovattic.font.FontTextView
+                    android:id="@+id/tvBtEnviarComentario"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bt_survey_enviar"
+                    android:gravity="center"
+                    android:text="Enviar"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="15dp"
+                    app:font="Gotham-Medium" />
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+
+</LinearLayout>

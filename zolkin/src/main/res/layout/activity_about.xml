@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#592d7f" >
+
+        <com.innovattic.font.FontTextView
+            style="@style/ActivityTitleTextViewStyle"
+            android:text="Sobre" />
+
+        <ImageView
+            android:id="@+id/btVoltar"
+            android:layout_width="40dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_vertical|left"
+            android:scaleType="center"
+            android:src="@drawable/bt_voltar" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/about_logo"
+                android:layout_weight="0.22" />
+
+            <com.innovattic.font.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:font="Gotham-Medium"
+                android:text="versão 2.2.0"
+                android:textColor="@color/zl_purple"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:id="@+id/tvVersionZolkin"/>
+
+            <com.innovattic.font.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:font="Gotham-Medium"
+                android:text="atualizado em 15/04/2015"
+                android:textColor="@color/zl_purple"
+                android:textSize="12dp"
+                android:textStyle="normal"
+                android:id="@+id/tvDateUpdate" />
+
+            <com.innovattic.font.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="14dp"
+                app:font="Gotham-Medium"
+                android:lines="2"
+                android:text="Zolkin é um aplicativo que aumenta seu poder de compra."
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <com.innovattic.font.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="14dp"
+                app:font="Gotham-Medium"
+                android:text="Uma experiência simples e descomplicada, sem necessidade de reservas, vouchers, resgates, pontos, mensalidades ou taxas."
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="#E0E0E0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.innovattic.font.FontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="4dp"
+                    app:font="Gotham-Medium"
+                    android:lines="1"
+                    android:text="Nosso site: "
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:textStyle="normal" />
+                <com.innovattic.font.FontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="4dp"
+                    app:font="Gotham-Medium"
+                    android:lines="1"
+                    android:text="www.zolkin.com.br"
+                    android:textColor="@color/zl_purple"
+                    android:textSize="15dp"
+                    android:textStyle="normal" 
+                    android:id="@+id/tvSiteZolkin"/>
+            </LinearLayout>
+            
+            <com.innovattic.font.FontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    app:font="Gotham-Medium"
+                    android:lines="1"
+                    android:text="Em caso de dúvidas, críticas ou sugestões,"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:textStyle="normal" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.innovattic.font.FontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="0dp"
+                    app:font="Gotham-Medium"
+                    android:lines="1"
+                    android:text="escreva para: "
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:textStyle="normal" />
+                <com.innovattic.font.FontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="0dp"
+                    app:font="Gotham-Medium"
+                    android:lines="1"
+                    android:text="contato@zolkin.com.br"
+                    android:textColor="@color/zl_purple"
+                    android:textSize="15dp"
+                    android:textStyle="normal" 
+                    android:id="@+id/tvEmailZolkin"/>
+            </LinearLayout>
+            
+            <ImageView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nuance_logo"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

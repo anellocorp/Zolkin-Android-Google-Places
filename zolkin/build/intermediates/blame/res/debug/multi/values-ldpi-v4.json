@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/values-ldpi-v4/values-ldpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/values-ldpi-v4/values-ldpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            }
+        ]
+    }
+]

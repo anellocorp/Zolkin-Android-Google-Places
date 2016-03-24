@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/res/merged/androidTest/debug/drawable/com_mixpanel_android_text_answer_border.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/bundles/debug/res/drawable/com_mixpanel_android_text_answer_border.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/res/merged/androidTest/debug/drawable/com_mixpanel_android_choice_middle_states.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/bundles/debug/res/drawable/com_mixpanel_android_choice_middle_states.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/res/merged/androidTest/debug/drawable/com_mixpanel_android_choice_first_states.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/bundles/debug/res/drawable/com_mixpanel_android_choice_first_states.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/res/merged/androidTest/debug/drawable/com_mixpanel_android_arrowright_states.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/bundles/debug/res/drawable/com_mixpanel_android_arrowright_states.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/res/merged/androidTest/debug/drawable/com_mixpanel_android_cta_button_highlight.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/bundles/debug/res/drawable/com_mixpanel_android_cta_button_highlight.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/res/merged/androidTest/debug/drawable/com_mixpanel_android_nocolor_list.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/bundles/debug/res/drawable/com_mixpanel_android_nocolor_list.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/res/merged/androidTest/debug/drawable/com_mixpanel_android_checkmark_states.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/bundles/debug/res/drawable/com_mixpanel_android_checkmark_states.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/res/merged/androidTest/debug/drawable/com_mixpanel_android_choice_last_states.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/bundles/debug/res/drawable/com_mixpanel_android_choice_last_states.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/res/merged/androidTest/debug/drawable/com_mixpanel_android_arrowright_insets.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/bundles/debug/res/drawable/com_mixpanel_android_arrowright_insets.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/res/merged/androidTest/debug/drawable/com_mixpanel_android_cta_button.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/bundles/debug/res/drawable/com_mixpanel_android_cta_button.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/res/merged/androidTest/debug/drawable/com_mixpanel_android_arrowleft_insets.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/bundles/debug/res/drawable/com_mixpanel_android_arrowleft_insets.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/res/merged/androidTest/debug/drawable/com_mixpanel_android_arrowleft_states.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/mixpanelandroid/build/intermediates/bundles/debug/res/drawable/com_mixpanel_android_arrowleft_states.xml"
+    }
+]

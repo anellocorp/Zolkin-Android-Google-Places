@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_geral" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="186dp"
+            android:layout_height="165dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo_zolkin" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/imgvBtFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/bt_facebook" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF" />
+
+            <com.innovattic.font.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text="ou"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                app:font="Gotham-Medium" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF" />
+        </LinearLayout>
+
+        <com.innovattic.font.FontEditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="@drawable/login_text_box"
+            android:hint="E-mail"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="#3d1666"
+            android:textColorHint="@color/zl_purple"
+            android:textSize="18dp"
+            app:font="Gotham-Light"
+            android:inputType="textEmailAddress"
+            android:imeOptions="normal"/>
+
+        <com.innovattic.font.FontEditText
+            android:id="@+id/etPass"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/login_text_box"
+            android:hint="Senha"
+            android:inputType="numberPassword"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="#3d1666"
+            android:textColorHint="@color/zl_purple"
+            android:textSize="18dp"
+            app:font="Gotham-Light"
+            android:password="true"
+            android:imeOptions="normal"
+            android:autoText="true" />
+
+        <com.innovattic.font.FontTextView
+            android:id="@+id/tvBtEsqueciSenha"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical|right"
+            android:text="Esqueci minha senha"
+            android:textSize="18sp"
+            android:textColor="@color/zl_green"
+            app:font="Gotham-Light" />
+
+        <ImageView
+            android:id="@+id/imgvBtCadastrar"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/bt_cadastre_aqui" />
+
+        <com.innovattic.font.FontTextView
+            android:id="@+id/tvBtAcessarSemConta"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Acessar sem criar conta"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:font="Gotham-Light" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,318 @@
+[
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_survey_multi_item_answer.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_survey_multi_item_answer.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_filter.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_filter.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_detail_picture.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_detail_picture.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_lista.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_lista.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_survey_multi_single.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_survey_multi_single.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_mixpanel_android_last_choice_answer.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/layout/com_mixpanel_android_last_choice_answer.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_faq_group.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_faq_group.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_extract_kins.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_extract_kins.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_mixpanel_android_activity_notification_full.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/layout/com_mixpanel_android_activity_notification_full.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_cadastro2.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_cadastro2.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_facebook_picker_activity_circle_row.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/layout/com_facebook_picker_activity_circle_row.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_facebook_placepickerfragment_list_row.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/layout/com_facebook_placepickerfragment_list_row.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_facebook_picker_title_bar_stub.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/layout/com_facebook_picker_title_bar_stub.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_termos.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_termos.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_mixpanel_android_question_card.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/layout/com_mixpanel_android_question_card.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_facebook_login_activity_layout.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/layout/com_facebook_login_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_filter_subcat.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_filter_subcat.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_list_store.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_list_store.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_survey_rating_star.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_survey_rating_star.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_messages.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_messages.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_mixpanel_android_activity_notification_mini.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/layout/com_mixpanel_android_activity_notification_mini.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_esqueci_senha.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_esqueci_senha.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/fragment_places.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/fragment_places.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_message.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_message.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/tutorial_1.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/tutorial_1.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_facebook_search_bar_layout.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/layout/com_facebook_search_bar_layout.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_detail.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_detail.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_facebook_picker_list_section_header.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/layout/com_facebook_picker_list_section_header.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_detail_forma_pagamento.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_detail_forma_pagamento.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_survey_multi_multi.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_survey_multi_multi.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_survey_padding.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_survey_padding.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_home.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_facebook_picker_search_box.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/layout/com_facebook_picker_search_box.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_facebook_picker_list_row.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/layout/com_facebook_picker_list_row.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_perfil.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_perfil.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_detail_forma_pagamento_header.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_detail_forma_pagamento_header.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_facebook_placepickerfragment.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/layout/com_facebook_placepickerfragment.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_mixpanel_android_activity_survey.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/layout/com_mixpanel_android_activity_survey.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_survey_text.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_survey_text.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_facebook_picker_image.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/layout/com_facebook_picker_image.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_facebook_picker_checkbox.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/layout/com_facebook_picker_checkbox.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_menu_base.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_menu_base.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_about.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_about.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_survey_bt_enviar.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_survey_bt_enviar.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_faq_question.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_faq_question.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_detail_economia.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_detail_economia.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/place_autocomplete_fragment.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_facebook_friendpickerfragment.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/layout/com_facebook_friendpickerfragment.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/callout_map_info.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/callout_map_info.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_popup.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_popup.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_facebook_usersettingsfragment.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/layout/com_facebook_usersettingsfragment.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_register_new_user.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_register_new_user.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_change_location.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_change_location.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_home_single_category.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_home_single_category.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_detail_available_service.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_detail_available_service.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_messages_message.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_messages_message.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_faq.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_faq.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_survey.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_survey.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_home_categories.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_home_categories.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/tutorial_0.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/tutorial_0.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_cadastro.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_cadastro.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_extrato.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_extrato.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_change_location_address.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_change_location_address.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_como_funciona.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_como_funciona.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_home_terms.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_home_terms.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/tutorial_2.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/tutorial_2.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_mixpanel_android_middle_choice_answer.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/layout/com_mixpanel_android_middle_choice_answer.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_mixpanel_android_first_choice_answer.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/layout/com_mixpanel_android_first_choice_answer.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_extract_avencer.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_extract_avencer.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/tutorial_3.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/tutorial_3.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/item_survey_rating_circle.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/item_survey_rating_circle.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/com_facebook_picker_title_bar.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/layout/com_facebook_picker_title_bar.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/menu.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/menu.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/activity_favoritos.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/layout/activity_favoritos.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/layout/place_autocomplete_item_prediction.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_prediction.xml"
+    }
+]

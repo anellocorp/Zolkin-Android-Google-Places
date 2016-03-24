@@ -1,0 +1,330 @@
+[
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/bt_cadastro_unchecked.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/bt_cadastro_unchecked.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/perfil_text_box.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/perfil_text_box.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_picker_list_longpressed.9.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_longpressed.9.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_profile_picture_blank_portrait.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_profile_picture_blank_portrait.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_cta_button_highlight.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/drawable/com_mixpanel_android_cta_button_highlight.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_button_blue_pressed.9.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_button_blue_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/bt_pular_intro_bg.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/bt_pular_intro_bg.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_logo.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_logo.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_top_button.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_top_button.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/ico_microfone_off.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/ico_microfone_off.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_inverse_icon.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_inverse_icon.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_picker_list_selector.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_selector.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_button_grey_focused.9.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_button_grey_focused.9.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_picker_list_selector_disabled.9.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_selector_disabled.9.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/segmented_left_unselected_green.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/segmented_left_unselected_green.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_picker_list_focused.9.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_focused.9.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/cadastro_text_box.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/cadastro_text_box.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_picker_top_button.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_picker_top_button.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_button_blue_normal.9.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_button_blue_normal.9.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_list_section_header_background.9.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_list_section_header_background.9.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/about_logo.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/about_logo.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/faq_bullet.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/faq_bullet.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_close.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_close.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/ico_microfone_on.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/ico_microfone_on.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/nuance_logo.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/nuance_logo.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/segmented_right_unselected.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/segmented_right_unselected.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/lista_text_box.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/lista_text_box.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_arrowright_insets.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/drawable/com_mixpanel_android_arrowright_insets.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_arrowleft_insets.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/drawable/com_mixpanel_android_arrowleft_insets.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_text_answer_border.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/drawable/com_mixpanel_android_text_answer_border.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_button_grey_normal.9.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_button_grey_normal.9.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/login_text_box.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/login_text_box.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/segmented_left_selected.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/segmented_left_selected.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_button_check.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_button_check.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/bt_close_go_home.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/bt_close_go_home.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/triangle_cadastro.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/triangle_cadastro.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_top_background.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_top_background.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_arrowright_states.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/drawable/com_mixpanel_android_arrowright_states.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/segmented_left_unselected.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/segmented_left_unselected.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/bt_mapa_border.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/bt_mapa_border.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_place_default_icon.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_place_default_icon.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_choice_last_states.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/drawable/com_mixpanel_android_choice_last_states.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_button_check_on.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_button_check_on.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/bt_close_desc.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/bt_close_desc.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_button_check_off.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_button_check_off.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_nocolor_list.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/drawable/com_mixpanel_android_nocolor_list.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_loginbutton_silver.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_loginbutton_silver.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/home_text_box.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/home_text_box.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/segmented_right_unselected_green.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/segmented_right_unselected_green.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_picker_list_pressed.9.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_button_blue.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_button_blue.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_cta_button.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/drawable/com_mixpanel_android_cta_button.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/bt_cadastro_checked.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/bt_cadastro_checked.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_button_blue_focused.9.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_button_blue_focused.9.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_profile_default_icon.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_profile_default_icon.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_list_divider.9.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_list_divider.9.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_profile_picture_blank_square.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_profile_picture_blank_square.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_checkmark_states.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/drawable/com_mixpanel_android_checkmark_states.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/segmented_right_selected_green.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/segmented_right_selected_green.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/menu_bt_about.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/menu_bt_about.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_choice_first_states.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/drawable/com_mixpanel_android_choice_first_states.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/bt_mapa_border_selected.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/bt_mapa_border_selected.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/bt_survey_enviar.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/bt_survey_enviar.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/bt_close_desc_black.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/bt_close_desc_black.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_usersettingsfragment_background_gradient.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_usersettingsfragment_background_gradient.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_picker_list_selector_background_transition.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_selector_background_transition.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/pesquisa_text_box.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/pesquisa_text_box.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_arrowleft_states.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/drawable/com_mixpanel_android_arrowleft_states.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/segmented_left_selected_green.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/segmented_left_selected_green.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_button_grey_pressed.9.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_button_grey_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_facebook_picker_item_background.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/facebookSDK/unspecified/res/drawable/com_facebook_picker_item_background.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/com_mixpanel_android_choice_middle_states.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/AndroidAS/mixpanelandroid/unspecified/res/drawable/com_mixpanel_android_choice_middle_states.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/menu_bt_como_funciona.png",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/menu_bt_como_funciona.png"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/segmented_right_selected.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/src/main/res/drawable/segmented_right_selected.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/Zolkin/Project/zolkin_v2_mobile/Zolkin/AndroidAS/zolkin/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_light.xml"
+    }
+]

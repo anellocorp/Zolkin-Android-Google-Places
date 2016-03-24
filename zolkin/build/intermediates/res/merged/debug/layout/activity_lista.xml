@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/flRoot" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/zl_purple" >
+
+            <com.innovattic.font.FontTextView
+                android:id="@+id/tvCatName"
+                style="@style/ActivityTitleTextViewStyle"
+                android:text="Restaurantes" />
+
+            <ImageView
+                android:id="@+id/btVoltar"
+                android:layout_width="40dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_vertical|left"
+                android:scaleType="center"
+                android:src="@drawable/bt_voltar" />
+
+            <ImageView
+                android:id="@+id/btLocation"
+                android:layout_width="23dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/bt_pin" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_margin="5dp" >
+
+            <com.innovattic.font.FontEditText
+                android:id="@+id/etSearch"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/lista_text_box"
+                android:hint="Se preferir, digite o nome aqui"
+                android:imeOptions="actionSearch"
+                android:paddingLeft="40dp"
+                android:singleLine="true"
+                android:textSize="14dp"
+                app:font="Gotham-Medium" />
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center_vertical|left"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/lupa_roxa" />
+
+            <ImageView
+                android:id="@+id/imgvBtFilter"
+                android:layout_width="45dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginLeft="8dp"
+                android:padding="4dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bt_filtros" />
+            
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="58dp"
+                android:src="@drawable/ico_microfone_off"
+                android:scaleType="centerInside" 
+                android:id="@+id/btSpeech"/>
+            
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="53dp"
+                android:src="@drawable/bt_close_go_home"
+                android:scaleType="centerInside" 
+                android:id="@+id/btClearText"
+                android:visibility="gone"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgvBtSortType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|left"
+                android:layout_marginRight="50dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/segmented_maisperto" />
+
+            <com.innovattic.font.FontButton
+                android:id="@+id/btMapList"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bt_mapa_border"
+                android:text="MAPA"
+                android:textColor="#3d1666"
+                android:textSize="12dp"
+                app:font="Gotham-Light" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" >
+
+                    <com.google.android.gms.maps.MapView
+                        android:id="@+id/mapView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone" />
+
+                    <ListView
+                        android:id="@+id/lvStores"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:listSelector="@android:color/transparent"
+                        android:cacheColorHint="#00000000" >
+                    </ListView>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llNoResults"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <com.innovattic.font.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    app:font="Gotham-Medium"
+                    android:gravity="center_horizontal"
+                    android:text="Ops, resultado não encontrado."
+                    android:textColor="#d33f37"
+                    android:textSize="20dp" />
+
+                <com.innovattic.font.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="40dp"
+                    app:font="Gotham-Medium"
+                    android:gravity="center_horizontal"
+                    android:lines="2"
+                    android:text="Por favor remova ou refaça sua pesquisa para encontrar o estabelecimento desejado."
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgvBtHideCoach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/coach3"
+        android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/zl_white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginRight="-8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_fundo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/zl_purple" >
+
+            <ImageView
+                android:layout_width="97dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo" />
+
+            <FrameLayout
+                android:id="@+id/btMenu"
+                android:layout_width="44dp"
+                android:layout_height="44dp" >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="17dp"
+                    android:layout_gravity="center_vertical|left"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/bt_menu" />
+
+                <TextView
+                    android:id="@+id/tvNewMessagesHome"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="right|top"
+                    android:layout_margin="3dp"
+                    android:background="#FFFF0000"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="#FFFFFFFF" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/btLocation"
+                android:layout_width="23dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/bt_pin" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sombra" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="13dp" >
+
+            <com.innovattic.font.FontEditText
+                style="@style/PesquisaTextBoxStyle"
+                android:id="@+id/etBusca"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@color/zl_purple"
+                android:hint="Busque ou fale o que precisa"
+                android:textColorHint="@color/zl_white"
+                android:imeOptions="actionSearch"
+                android:paddingLeft="40dp"
+                android:singleLine="true"
+                android:textColor="@color/zl_white"
+                android:textSize="14dp"
+                app:font="Gotham-Medium"
+                android:textAlignment="center"
+                android:visibility="gone"/>
+
+            <AutoCompleteTextView
+                style="@style/PesquisaTextBoxStyle"
+                android:id="@+id/autocomplete_places"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:hint="Busque ou fale o que precisa"
+                android:imeOptions="actionSearch"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/zl_purple"
+                android:textColor="@color/zl_white"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:singleLine="true"
+                android:paddingLeft="60dp"
+                android:textColorHint="@color/zl_white"
+                android:textStyle="bold"
+                 />
+
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center_vertical|left"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/lupa_roxa" />
+
+            <ImageView
+                android:id="@+id/btSpeech"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ico_microfone_off" />
+
+            <ImageView
+                android:id="@+id/btClearText"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/bt_close_go_home"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" >
+
+            <ListView
+                android:id="@+id/lvCategories"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="@android:color/transparent"
+                android:listSelector="@android:color/transparent"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0px"
+                />
+
+
+            <FrameLayout
+                android:id="@+id/flCachedTermsBorder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:background="@color/zl_white"
+                android:visibility="gone" >
+
+                <ListView
+                    android:id="@+id/lvCachedTerms"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/zl_white"
+                    android:cacheColorHint="@color/zl_white"
+                    android:listSelector="@android:color/transparent" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgvBtHideCoach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/coach1"
+        android:visibility="gone" />
+
+</FrameLayout>

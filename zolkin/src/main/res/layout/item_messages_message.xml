@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="#FFFFFF" >
+
+    <View
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_gravity="left|top"
+        android:layout_margin="9dp"
+        android:background="@color/zl_light_blue"
+        android:id="@+id/vNew" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+            
+            <com.innovattic.font.FontTextView
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:layout_gravity="center_vertical|left"
+		        android:gravity="center_vertical|left"
+		        android:layout_marginRight="8dp"
+		        android:layout_marginTop="2dp"
+		        android:textColor="@color/zl_purple"
+		        android:text="23:40"
+		        android:textSize="14dp"
+		        app:font="Gotham-Medium-Bold"
+		        android:id="@+id/tvTitle" />
+            
+            <com.innovattic.font.FontTextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:gravity="center"
+		        android:layout_marginTop="2dp"
+		        android:textColor="#AAAAAA"
+		        android:textSize="12dp"
+		        android:text="23:40"
+		        app:font="Gotham-Medium-Regular"
+		        android:id="@+id/tvTime" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+            
+            <com.innovattic.font.FontTextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:paddingLeft="4dp"
+		        android:paddingRight="4dp"
+		        android:gravity="center"
+		        android:textColor="#000000"
+		        android:text="PESQUISA"
+		        app:font="Gotham-Medium-Regular"
+		        android:background="@color/zl_green"
+		        android:id="@+id/tvSurvey"
+		        android:textSize="12dp"
+		        android:singleLine="true" />
+            
+            <com.innovattic.font.FontTextView
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:layout_gravity="center_vertical|left"
+		        android:gravity="center_vertical|left"
+		        android:layout_marginLeft="8dp"
+		        android:textColor="#000000"
+		        android:text="Boston Bakery"
+		        app:font="Gotham-Medium"
+		        android:singleLine="true"
+		        android:id="@+id/tvStoreName"
+		        android:textSize="14dp" />
+            
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="3dp"
+        android:textColor="#AAAAAA"
+        android:text=">" />
+    
+</LinearLayout>

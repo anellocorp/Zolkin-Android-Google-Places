@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Fonts"><attr format="string|reference" name="font"/><attr name="android:textStyle"/><attr format="color|reference" name="borderColor"/><attr format="dimension|reference" name="borderWidth"/></declare-styleable>
+    <item name="fonts_extra_data" type="id"/>
+</resources>
